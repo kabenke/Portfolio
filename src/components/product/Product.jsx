@@ -1,6 +1,5 @@
 import React from 'react';
 import   "./product.css";
-import Swal from "sweetalert";
 
 const Product = ({img,link}) => {
     return (
@@ -10,13 +9,7 @@ const Product = ({img,link}) => {
                   <div className="p-circle"/>
                   <div className="p-circle"/>
               </div>
-            <a href={link} onClick={
-                Swal.fire({
-                    imageUrl: link,
-                    imageHeight: 10,
-                    imageAlt: 'A tall image'
-                })
-            }>view</a>
+            <a href={link}  target="_blank">view</a>
             <img src={img} alt="" className="p-img"/>
         </div>
 
