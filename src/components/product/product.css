@@ -15,7 +15,9 @@
     padding: 10px;
     text-decoration: none;
     position: absolute;
-    background-color: rgb(243,242,242);
+    color: #1f1010;
+    opacity: 120%;
+    background-color: #93c588;
     border-radius: 18px;
     transition: all 100ms ease-in-out ;
 
@@ -23,7 +25,7 @@
 .p-browser
 {
     height: 20px;
-    background-color: rgb(243,242,242);
+    background-color: rgb(92, 157, 81);
     display: flex;
     align-items: center;
     position: sticky;
