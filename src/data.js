@@ -33,6 +33,4 @@ export const products =
                     link:"#"
             },
     ];
-
-
 export default products;
