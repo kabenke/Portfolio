@@ -1,4 +1,4 @@
-import React, {useContext, useState} from "react";
+import React, {useContext} from "react";
 import Intro from "./components/intro/Intro";
 import About from "./components/about/About";
 import ProductList from "./components/productList/ProductList";
@@ -19,8 +19,6 @@ const App = () => {
               <Contact/>
               <CopyRigth/>
           </div>
-
-
   );
 };
 
