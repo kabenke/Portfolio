@@ -1,0 +1,156 @@
+.a
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overscroll-behavior: none;
+
+
+}
+
+.a-left
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+
+}
+
+.a-rigth
+{
+    flex: 1;
+}
+.a-card
+{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px ;
+    position: relative;
+    overflow: hidden;
+}
+.a-img
+{
+    width: 100%;
+    border-fit: cover;
+    margin-left: 40px;
+}
+.a-card.bg{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    background-color: black;
+}
+.a-award-img
+{
+    width: 100px;
+    height: 100px;
+    border-raduis: 20px ;
+}
+.a-title
+{
+    font-weight: 500;
+}
+.a-sub
+{
+    margin: 20px 0px  ;
+}
+.a-desc
+{
+    font-weight: 200;
+}
+.a-award
+{
+    flex-grow: 1;
+}
+.a-award-content
+{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.a-award-text
+{
+    width: 60%;
+}
+.a-award-desc
+{
+    font-weight: 200;
+}
+
+.a-award-title
+{
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+.a-arrow {
+    position: absolute;
+    box-sizing: border-box;
+    height: 2vw;
+    width: 2vw;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+    margin-left: 45%;
+    margin-top: 27%;
+}
+
+.a-arrow:hover {
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+}
+
+@media screen and (max-width: 480px)
+{
+    .a{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .a-left
+    {
+        width: 100%;
+    }
+    .a-card
+    {
+        height: 30vh;
+    }
+    .a-card.bg , .a-award
+    {
+        display: none;
+    }
+    .a-rigth
+    {
+        padding: 20px;
+    }
+    .a-arrow
+    {
+        display: none;
+    }
+    .a-award
+    {
+        flex-grow: 1;
+    }
+
+}
+@media screen and (max-width: 1079px) and (min-height:100px)
+{
+    .a-card.bg
+    {
+        height: 50vh;
+    }
+    .a-img
+    {
+       padding: 20px;
+    }
+    .a-award
+    {
+        flex-grow: 1;
+    }
+
+}
