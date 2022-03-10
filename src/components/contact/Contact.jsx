@@ -2,7 +2,7 @@ import React, {useContext, useRef, useState} from 'react';
 import "./contact.css";
 import Phone from "../../img/icons/phone.png";
 import  Email from "../../img/icons/email.png";
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import {ThemeContext} from "../context";
 const Contact = () => {
 
