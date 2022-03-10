@@ -14,7 +14,7 @@ const About = () =>
 
         <div className="a">
           <div className="a-left">
-              <div className="a-card bg"></div>
+              <div className="a-card bg"/>
               <div className="a-card">
                   <img src={Front} alt="" className="a-img"/>
               </div>
@@ -27,8 +27,8 @@ const About = () =>
                     für Entwicklung und gutes Design.
                 </div>
                 <div className="a-award">
-                   <div className="a-award-content">
-                       <img src={Award} className="a-award-img"/>
+                   <div className="a-award-content-1">
+                       <img src={Award} className="a-award-img" alt=""/>
                        <div className=".a-award-text">
                            <h4 className="a-award title">DSH-3</h4>
                            <div className="a-award-desc">
@@ -36,8 +36,8 @@ const About = () =>
                            </div>
                        </div>
                    </div>
-                    <div className="a-award-content">
-                        <img src={Award} className="a-award-img"/>
+                    <div className="a-award-content-2">
+                        <img src={Award} className="a-award-img" alt=""/>
                         <div className=".a-award-text">
                             <h4 className="a-award title">Symphony</h4>
                             <div className="a-award-desc">
@@ -45,8 +45,8 @@ const About = () =>
                             </div>
                         </div>
                     </div>
-                    <div className="a-award-content">
-                        <img src={Award} className="a-award-img"/>
+                    <div className="a-award-content-3">
+                        <img src={Award} className="a-award-img" alt=""/>
                         <div className=".a-award-text">
                             <h4 className="a-award title">React</h4>
                             <div className="a-award-desc">
@@ -54,8 +54,8 @@ const About = () =>
                             </div>
                         </div>
                     </div>
-                    <div className="a-award-content">
-                        <img src={Award} className="a-award-img"/>
+                    <div className="a-award-content-4">
+                        <img src={Award} className="a-award-img" alt=""/>
                         <div className=".a-award-text">
                             <h4 className="a-award title">Spring</h4>
                             <div className="a-award-desc">
