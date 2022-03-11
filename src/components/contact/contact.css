@@ -192,7 +192,7 @@ li a:hover {
         overflow: hidden;
     }
 }
-@media screen  and (max-width:600px) and (min-height: 600px) {
+@media screen  and (max-width:600px) and (min-height: 800px) {
     .c{
         height: 40vh;
         overflow: hidden;
