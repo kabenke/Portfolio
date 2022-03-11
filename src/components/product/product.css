@@ -55,6 +55,26 @@
         height: 20vh;
     }
 }
+@media screen  and (max-width:1080px) and (min-height: 1920px) {
+    .p
+    {
+        height: 10vh;
+        padding: 20px;
+        overflow: hidden;
+    }
+}
+@media screen  and (width:600px) and (height: 800px) {
+
+    .p
+    {
+        height: 10vh;
+        padding:20px;
+    }
+    .a
+    {
+        margin-left: 10px;
+    }
+}
 
 
 

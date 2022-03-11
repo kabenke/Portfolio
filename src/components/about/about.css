@@ -127,7 +127,7 @@
     width: 2vw;
     border-style: solid;
     border-color: black;
-    border-width:  0px 1px 1px 0px;
+    border-width:  0 1px 1px 0;
     transform: rotate(45deg);
     transition: border-width 150ms ease-in-out;
     margin-left: 45%;
@@ -188,3 +188,47 @@
     }
 
 }
+@media screen  and (max-width:1080px) and (min-height: 1920px) {
+    .a{
+        height: 80vh;
+    }
+    .a-card.bg
+    {
+        position: absolute;
+        height: 30vh;
+    }
+    .a-img
+    {
+        position: relative;
+        padding: 10px;
+        margin: 10px;
+        top: 30px;
+    }
+
+
+}
+@media screen  and (width: 600px) and (height: 800px) {
+    .a{
+        display: flex;
+        flex-direction: column;
+        margin: 100px;
+        padding: 15px;
+        height: 100vh;
+    }
+
+    .a-card
+    {
+        display: none;
+    }
+    .a-card-bg
+    {
+        display: none;
+    }
+    .a-arrow
+    {
+        display: none;
+    }
+
+
+}
+
