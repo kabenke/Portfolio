@@ -1,6 +1,6 @@
 import React from "react"
 import "./intro.css"
-import me from "../../img/1.png"
+import me from "../../img/2.png"
 
 function handleScroll(e){
     e.preventDefault();
