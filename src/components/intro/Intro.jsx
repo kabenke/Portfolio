@@ -1,6 +1,6 @@
 import React from "react"
 import "./intro.css"
-import me from "../../img/1.png"
+import me from "../../img/2.png"
 
 function handleScroll(e){
     e.preventDefault();
@@ -24,7 +24,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                       Willkommen auf mein kleine Portfolio.hier sehen sie
+                       Willkommen auf mein kleine Portfolio.hier lesen sie
                         mehr über mich
                     </p>
                 </div>

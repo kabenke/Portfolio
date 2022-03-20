@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css"
-import Front from  "../../img/2.png"
+import Front from  "../../img/1.png"
 import Award from  "../../img/icons/3.png"
 
 function handleScrol(e){

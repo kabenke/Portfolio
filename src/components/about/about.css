@@ -1,7 +1,8 @@
 .a
 {
-    height: 100vh;
+    height: 110vh;
     display: flex;
+    margin: 30px;
     align-items: center;
     overscroll-behavior: none;
 
