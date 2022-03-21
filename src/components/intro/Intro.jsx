@@ -4,7 +4,7 @@ import me from "../../img/2.png"
 
 function handleScroll(e){
     e.preventDefault();
-    window.scroll(0,860);
+    window.scroll(0,780);
 }
 const Intro = () => {
 

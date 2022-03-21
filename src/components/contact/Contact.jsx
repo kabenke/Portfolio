@@ -75,23 +75,23 @@ const Contact = () => {
                             </h1>
                             <div className="c-info">
                                 <div className="c-info-item">
-                                    <a style={{color: darkMode && "#fff"}} href="tel:+49(0)1788339670">
+                                    <a style={{color: !darkMode && "#fff"}} href="tel:+49(0)1788339670">
                                         <img src={Phone} alt="" className="c-icon"/>
                                         click to call me
                                     </a>
                                 </div>
                                 <div className="c-info-item">
-                                    <a style={{color: darkMode && "#fff"}}  href="mailto:nana_kabenke@yahoo.fr">
+                                    <a style={{color: !darkMode && "#fff"}}  href="mailto:nana_kabenke@yahoo.fr">
                                         <img src={Email} alt="" className="c-icon"/>
                                         click to mail me
                                     </a>
                                 </div>
                                 <div className="c-info-sn">
                                     <ul>
-                                        <li><a style={{color: darkMode && "#fff"}} href="https://www.linkedin.com/in/stephane-ulrich-n-1b3579193" name="linkedIn"> LinkedIn</a></li>
-                                        <li><a style={{color: darkMode && "#fff"}} href="https://www.xing.com/profile/StephaneUlrich_NanaKabenke/cv" name="xing"> Xing</a></li>
-                                        <li><a style={{color: darkMode && "#fff"}} href="https://www.instagram.com/mr_oreox/" name="instagram"> Instagram</a></li>
-                                        <li><a  style={{color: darkMode && "#fff"}}href="https://www.udemy.com/user/stephane-ulrich-nana-kabenke/" name="udemy"> Udemy</a></li>
+                                        <li><a style={{color: !darkMode && "#fff"}} href="https://www.linkedin.com/in/stephane-ulrich-n-1b3579193" name="linkedIn"> LinkedIn</a></li>
+                                        <li><a style={{color: !darkMode && "#fff"}} href="https://www.xing.com/profile/StephaneUlrich_NanaKabenke/cv" name="xing"> Xing</a></li>
+                                        <li><a style={{color: !darkMode && "#fff"}} href="https://www.instagram.com/mr_oreox/" name="instagram"> Instagram</a></li>
+                                        <li><a  style={{color: !darkMode && "#fff"}}href="https://www.udemy.com/user/stephane-ulrich-nana-kabenke/" name="udemy"> Udemy</a></li>
                                     </ul>
                                 </div>
                             </div>

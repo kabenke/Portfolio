@@ -121,24 +121,7 @@
     color: #555;
     margin-bottom: 10px;
 }
-.a-arrow {
-    position: absolute;
-    box-sizing: border-box;
-    height: 2vw;
-    width: 2vw;
-    border-style: solid;
-    border-color: black;
-    border-width:  0 1px 1px 0;
-    transform: rotate(45deg);
-    transition: border-width 150ms ease-in-out;
-    margin-left: 45%;
-    margin-top: 27%;
-}
 
-.a-arrow:hover {
-    border-bottom-width: 5px;
-    border-right-width: 5px;
-}
 
 @media screen and (max-width: 480px)
 {

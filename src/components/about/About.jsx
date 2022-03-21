@@ -19,7 +19,6 @@ const About = () =>
                   <img src={Front} alt="" className="a-img"/>
               </div>
           </div>
-            <div className="a-arrow" onClick={handleScrol} > </div>
           <div className="a-rigth">
                 <h1 className="a-title"> Über Mich </h1>
                 <p className="a-sub"> "Just because something works doesn't mean it shouldn't be improved"</p>
