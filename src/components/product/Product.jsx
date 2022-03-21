@@ -9,8 +9,9 @@ const Product = ({img,link}) => {
                   <div className="p-circle"/>
                   <div className="p-circle"/>
               </div>
-            <a href={link}  target="_blank">view</a>
+            <a href={link}  target="_blank">
             <img src={img} alt="" className="p-img"/>
+            </a>
         </div>
 
     );
