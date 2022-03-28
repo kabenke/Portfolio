@@ -104,15 +104,15 @@ const Contact = () => {
                                 </p>
                             </div>
                             <form  ref={formRef} onSubmit={(e)=>{onSubmitHandler(e)}}>
-                                <input  name="name" required style={{backgroundColor: darkMode && "#333"}} type="text" value={name} placeholder="Name "
+                                <input  name="name" required style={{backgroundColor: !darkMode && "#333"}} type="text" value={name} placeholder="Name "
                                        onChange={(e)=>{ onChangeHandler("name",e.target.value)}} />
-                                <input name="subject" required style={{backgroundColor: darkMode && "#333"}} type="text" value={subject} placeholder="Subject "
+                                <input name="subject" required style={{backgroundColor: !darkMode && "#333"}} type="text" value={subject} placeholder="Subject "
                                        onChange={(e)=>{ onChangeHandler("subject",e.target.value)}} />
-                                <input name="email"  style={{backgroundColor: darkMode && "#333"}} type="email"  value={email} placeholder="Email "
+                                <input name="email"  style={{backgroundColor: !darkMode && "#333"}} type="email"  value={email} placeholder="Email "
                                        onChange={(e)=>{ onChangeHandler("email",e.target.value)}} />
                                 <textarea name="message"  type="text"  value={message} placeholder="Message" rows="10"
                                        onChange={(e)=>{ onChangeHandler("message",e.target.value)}} />
-                                <input required className="c-form-bt" style={{backgroundColor: darkMode && "#333"}} type="submit" value="Submit" />
+                                <input required className="c-form-bt"  type="submit" value="Submit" />
                             </form>
                         </div>
                     </div>

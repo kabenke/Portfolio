@@ -1,12 +1,12 @@
-import React from "react"
+import React, {useContext} from "react"
 import "./intro.css"
-import me from "../../img/2.png"
+import me_dark from "../../img/2.png"
+import me_light from "../../img/100.png"
+import {ThemeContext} from "../context";
 
-function handleScroll(e){
-    e.preventDefault();
-    window.scroll(0,780);
-}
 const Intro = () => {
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
 
     return(
         <div className="i">
@@ -24,15 +24,14 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                       Willkommen auf mein kleines Portfolio.hier lesen sie
-                        mehr über mich
+                        <h2>Willkommen</h2>.....................................................<br/>
+                        hier lesen sie mehr über mich
                     </p>
                 </div>
             </div>
-            <div className="i-arrow" onClick={handleScroll} ></div>
             <div className="i-rigth">
                 <div className="i-bg"></div>
-                <img src={me} alt="" className="i-img"/>
+                <img src={!darkMode ? me_dark:me_light} alt="" className="i-img"/>
             </div>
         </div>
     )
