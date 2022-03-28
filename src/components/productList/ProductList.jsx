@@ -8,7 +8,7 @@ const ProductList = () => {
         <div className="p1">
              <div className="p1-text">
                  <h1 className="p1-title">
-                     Meine Zertifikat
+                     Meine Zertifikate
                  </h1>
                  <p className="p1-desc">
                      ich habe an Kurse und Training teilgenommen und am Ende Zertifikaten

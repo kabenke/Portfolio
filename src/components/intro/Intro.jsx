@@ -24,7 +24,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                       Willkommen auf mein kleine Portfolio.hier lesen sie
+                       Willkommen auf mein kleines Portfolio.hier lesen sie
                         mehr über mich
                     </p>
                 </div>
