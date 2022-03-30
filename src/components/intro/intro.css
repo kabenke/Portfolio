@@ -130,7 +130,18 @@
  {
      .i{
          flex-direction: column;
+
      }
+     .i-intro,.i-name,.i-title
+     {
+         font-size: 40px;
+     }
+     .i-img
+     {
+         height: 60vh;
+         bottom: -9px;
+     }
+
      .i-left-wrapper
      {
          padding: 10px;

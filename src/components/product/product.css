@@ -38,14 +38,19 @@
 }
 
 .p:hover{
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 30px 20px -20px;
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.45) 0 30px 20px -20px;
 }
 
 @media screen and (max-width: 480px)
 {
     .p{
         width: 40%;
-        height: 20vh;
+        height: 15vh;
+    }
+    .p:hover{
+        width: 40%;
+        height: 15vh;
     }
 }
 @media screen  and (max-width:1080px) and (min-height: 1920px) {

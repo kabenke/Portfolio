@@ -98,17 +98,18 @@ textarea
     font-weight: 500;
     cursor: pointer;
 }
-ul {
+.c-info-list {
     list-style-type: none;
     overflow: hidden;
     position: relative;
+    left: -50px;
 }
 
-li {
+.c-info-list li {
     float: left;
 }
 
-li a {
+.c-info-list li a {
     display: block;
     text-align: center;
     padding: 13px 11px;
@@ -116,7 +117,7 @@ li a {
     color: black;
 }
 
-li a:hover {
+.c-info-list li a:hover {
     background-color: #56b256;
 
 }
@@ -126,6 +127,8 @@ li a:hover {
     .c
     {
         font-size: 13px;
+        height: 80vh;
+
     }
     .c-wrapper{
         flex-direction: column;
@@ -141,6 +144,13 @@ li a:hover {
         margin: 20px 0;
         width: 100%;
 
+    }
+    li{
+        font-size: 10px;
+    }
+    .c-info-list{
+        display: flex;
+        left: -50px;
     }
 
     input
