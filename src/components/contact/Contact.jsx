@@ -67,7 +67,7 @@ const Contact = () => {
         }
     return (
         <div className="c">
-               <div className="c-bg"></div>
+               <div className="c-bg"/>
                     <div className="c-wrapper">
                         <div className="c-left">
                             <h1 className="c-title">
@@ -91,7 +91,7 @@ const Contact = () => {
                                         <li><a style={{color: !darkMode && "#fff"}} href="https://www.linkedin.com/in/stephane-ulrich-n-1b3579193" name="linkedIn"> LinkedIn</a></li>
                                         <li><a style={{color: !darkMode && "#fff"}} href="https://www.xing.com/profile/StephaneUlrich_NanaKabenke/cv" name="xing"> Xing</a></li>
                                         <li><a style={{color: !darkMode && "#fff"}} href="https://www.instagram.com/mr_oreox/" name="instagram"> Instagram</a></li>
-                                        <li><a  style={{color: !darkMode && "#fff"}}href="https://www.udemy.com/user/stephane-ulrich-nana-kabenke/" name="udemy"> Udemy</a></li>
+                                        <li><a  style={{color: !darkMode && "#fff"}} href="https://www.udemy.com/user/stephane-ulrich-nana-kabenke/" name="udemy"> Udemy</a></li>
                                     </ul>
                                 </div>
                             </div>
