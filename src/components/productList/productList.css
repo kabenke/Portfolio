@@ -1,4 +1,4 @@
-.p1{
+.pl{
     padding: 0 30px;
     margin: 35px;
     display: flex;
@@ -7,24 +7,24 @@
     text-align: center;
 }
 
-.p1-text
+.pl-text
 {
     width: 65%;
     padding: 0;
 
 }
 
-.p1-title
+.pl-title
 {
     font-size: 50px;
     font-weight: 500;
 
 }
 
-.p1-desc{
+.pl-desc{
     margin : 20px;
 }
-.p1-list
+.pl-list
 {
     width: 100%;
     display: flex;
@@ -33,18 +33,18 @@
 }
 @media screen and (max-width: 480px)
 {
-    .p1{
+    .pl{
         padding: 10px;
     }
-    .p1-title{
+    .pl-title{
         font-size: 30px;
     }
 
-    .p1-text
+    .pl-text
     {
         width: 100%;
     }
-    .p1-desc
+    .pl-desc
     {
         display: none;
     }

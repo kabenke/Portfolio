@@ -5,17 +5,17 @@ import products from "../../data";
 
 const ProductList = () => {
     return (
-        <div className="p1">
-             <div className="p1-text">
-                 <h1 className="p1-title">
+        <div className="pl">
+             <div className="pl-text">
+                 <hl className="pl-title">
                      Meine Zertifikate
-                 </h1>
-                 <p className="p1-desc">
+                 </hl>
+                 <p className="pl-desc">
                      ich habe an Kurse und Training teilgenommen und am Ende Zertifikaten
                      bekommen . Hiermit ein paar Davon
                  </p>
              </div>
-            <div className="p1-list">
+            <div className="pl-list">
                 {
                     products.map((item) =>
                     <Product key={item.id} img={item.img} link={item.link}/>

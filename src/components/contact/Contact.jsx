@@ -53,7 +53,8 @@ const Contact = () => {
                 position: 'center',
                 icon: 'success',
                 title: 'Sent',
-                showConfirmButton: false,
+                text:'Danke für ihre kontakt wir werden uns freuen mit ihnen zu arbeiten',
+                showConfirmButton: true,
                 timer: 1789
             });
         }
