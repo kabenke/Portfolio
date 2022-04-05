@@ -30,8 +30,8 @@ const Intro = () => {
                 </div>
             </div>
             <div className="i-rigth">
-                <div className="i-bg"></div>
-                <img src={!darkMode ? me_dark:me_light} alt="" className="i-img"/>
+                <div className="i-bg"/>
+                <img src={darkMode ? me_dark:me_light} alt="" className="i-img"/>
             </div>
         </div>
     )

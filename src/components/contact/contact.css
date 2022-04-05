@@ -69,24 +69,63 @@ form
 {
     margin-top: 20px;
 }
-input
-{
+
+.text-field {
+    position: relative;
+    margin: 20px 2.5px 30px 2.5px;
+}
+
+input {
+    display: inline-block;
+    color: #333;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: thin solid #888;
+}
+
+input:focus {
+    border: thin solid #444 ;
+    outline: none !important;
     width: 50%;
-    height: 50px;
-    border : none;
-    border-bottom: 1px solid black;
-    margin: 20px 0;
-    font-size: 14px;
-    padding-left: 10px;
+}
+
+label {
+    position: absolute;
+    pointer-events: none;
+    left: 20px;
+    top: 10px;
+    transition: 0.2s;
+    border-radius: 10px;
+    color: #888;
+    font-size: 12px;
+}
+
+input:focus ~ label, input:valid ~ label  {
+    top: -10px;
+    left: 15px;
+    font-size: small;
+    color: #555;
+    background-color:#fafafa;
+    padding:0 5px 0 5px;
+    outline: none !important;
 }
 textarea
 {
-    width: 100%;
+    width: 70%;
+    height: 10vh;
     margin: 10px 0;
     font-size: 14px;
     padding-left: 10px;
     resize:vertical;
+    border: thin solid #000;
+    border-radius: 10px;
 
+}
+textarea:focus
+{
+    height: 30vh;
+    width: 100%;
+    outline: none !important;
 }
 .c-form-bt
 {

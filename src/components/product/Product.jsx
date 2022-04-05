@@ -1,11 +1,6 @@
-import React, {useContext} from 'react';
 import   "./product.css";
-import {ThemeContext} from "../context";
-
 
 const Product = ({img,link}) => {
-    const theme = useContext(ThemeContext);
-    const darkMode = theme.state.darkMode;
 
    return (
         <div  className="p">
