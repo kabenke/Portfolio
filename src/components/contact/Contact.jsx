@@ -54,8 +54,7 @@ const Contact = () => {
                 icon: 'success',
                 title: 'Sent',
                 text:'Danke für ihre kontakt wir werden uns freuen mit ihnen zu arbeiten',
-                showConfirmButton: true,
-                timer: 1789
+                showConfirmButton: true
             });
         }
 
