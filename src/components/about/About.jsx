@@ -20,7 +20,6 @@ const About = () =>
               </div>
           </div>
           <div className="a-rigth">
-                <h1 className="a-title"> Über Mich </h1>
                 <p className="a-sub"> "Just because something works doesn't mean it shouldn't be improved"</p>
                 <div className="a-desc"> Ich studiere IT an der TU-Dortmund und habe eine sehr große Liebe
                     für Entwicklung und gutes Design.
