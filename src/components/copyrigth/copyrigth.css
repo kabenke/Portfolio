@@ -59,7 +59,7 @@ and (max-width:480px)
     }
 
 }
-@media screen and (min-width: 392px) and (orientation: landscape)
+@media screen and (min-width: 300px) and (orientation: landscape)
 {
    .f{
        position: fixed;
