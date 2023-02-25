@@ -212,12 +212,13 @@ textarea:focus
         font-size: 12px;
         width: 35%;
         height: 20px;
-        margin: 0px;
+        margin: 0;
 
     }
     .c-form-bt
     {
         margin-top: 10px;
+        border-radius: 0;
     }
 
     .c-desc
