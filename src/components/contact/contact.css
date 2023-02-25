@@ -302,7 +302,10 @@ textarea:focus
     {
         font-size: 12px ;
     }
-
+    .c-bg
+    {
+        display: none;
+    }
     .c-arrow
     {
         display: none;
