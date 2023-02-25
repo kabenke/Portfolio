@@ -1,9 +1,10 @@
 .f{
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 12vh;
     color: white;
     background-color: #000000;
+    bottom: 0;
 }
 
 footer {
@@ -46,11 +47,10 @@ footer {
 }
 @media screen  and (max-width:600px) and (max-height: 900px) {
    .f{
-       position: relative;
+       position: fixed;
        width: 100%;
        height: 3vh;
-       font-max-size: 12px;
-       margin-top: 0;
+       bottom: 0;
 
    }
     .f-list
@@ -59,13 +59,19 @@ footer {
     }
 
 }
-@media screen  and (min-width:600px) and (min-height: 900px) {
+@media screen  and (max-width:600px) and (max-height: 1000px) {
     .f{
         width: 100%;
-        position: relative;
-        margin-top: 0;
-
+        height: 3vh;
+    }
+    .f-list
+    {
+        display: none;
     }
 
-
 }
+
+
+
+
+
