@@ -111,7 +111,7 @@ input:focus ~ label, input:valid ~ label  {
 }
 textarea
 {
-    width: 70%;
+    width: 60%;
     height: 10vh;
     margin: 10px 0;
     font-size: 14px;
@@ -123,8 +123,8 @@ textarea
 }
 textarea:focus
 {
-    height: 30vh;
-    width: 100%;
+    height: 20vh;
+    width: 60%;
     outline: none !important;
 }
 .c-form-bt
