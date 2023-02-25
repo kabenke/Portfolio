@@ -157,6 +157,32 @@
     }
 
 }
+@media screen and (min-width: 392px) and (orientation: landscape)
+{
+    .a{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+        height: 100vh;
+        flex-grow: 1;
+    }
+    .a-card
+    {
+        width: 40%;
+    }
+    .a-award{
+        display: none;
+    }
+
+
+
+    .a-arrow{
+        display: none;
+    }
+
+
+
+}
 @media screen and (max-width: 1079px) and (min-height:100px)
 {
     .a-card.bg
