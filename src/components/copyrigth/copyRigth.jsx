@@ -4,10 +4,9 @@ const CopyRigth = () => {
     return (
         <div>
             <div className="f">
-
                 <footer >
                     <div className="f-desc">
-                       &copy; 2020 solution provider DE,Inc All rigths reserved.
+                       &copy; 2022 Kabenke. Made with 	&#10084; by Kabenke
                     </div>
                     <div className="f-policy">
                         <ul className="f-list">

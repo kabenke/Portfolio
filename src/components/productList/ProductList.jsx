@@ -7,9 +7,9 @@ const ProductList = () => {
     return (
         <div className="pl">
              <div className="pl-text">
-                 <hl className="pl-title">
+                 <h1 className="pl-title">
                      Meine Zertifikate
-                 </hl>
+                 </h1>
                  <p className="pl-desc">
                      ich habe an Kurse und Training teilgenommen und am Ende Zertifikaten
                      bekommen . Hiermit ein paar Davon

@@ -23,10 +23,10 @@ const Intro = () => {
                             <div className="i-title-item">Content Creator</div>
                         </div>
                     </div>
-                    <p className="i-desc">
+                    <section className="i-desc">
                         <h2>Willkommen</h2>.....................................................<br/>
                         hier lesen sie mehr über mich
-                    </p>
+                    </section>
                 </div>
             </div>
             <div className="i-rigth">
