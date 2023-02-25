@@ -49,6 +49,7 @@ and (max-width:480px)
 {
    .f{
        position: relative;
+       height: 3vh;
        font-size: 12px;
        width: 100%;
    }
