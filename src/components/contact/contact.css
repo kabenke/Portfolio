@@ -210,11 +210,6 @@ textarea:focus
     {
         display: none;
     }
-    textarea
-    {
-        height: 18vh;
-        resize: vertical;
-    }
     .c-bg
     {
         display: none;
@@ -223,15 +218,39 @@ textarea:focus
     {
         display: none;
     }
+    textarea
+    {
+        width: 70%;
+        height: 18vh;
+        margin: 10px 0;
+        font-size: 14px;
+        padding-left: 10px;
+        resize:vertical;
+        border: thin solid #000;
+        border-radius: 10px;
+
+    }
+    textarea:focus
+    {
+        height: 18vh;
+        width: 100%;
+        outline: none !important;
+    }
+
 
 }
 @media screen and (max-width: 800px ) and (max-height: 600px) {
 
     textarea
     {
-        height: 25vh;
+        height: 15vh;
         resize:vertical;
     }
+    textarea:focus {
+        outline: none !important;
+    }
+
+
 }
 
 
