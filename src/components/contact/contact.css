@@ -170,6 +170,14 @@ textarea:focus
         height: 80vh;
 
     }
+    .c-left{
+        margin: -10px;
+        padding: 5px;
+    }
+    .c-rigth{
+        margin: -10px;
+        padding: 5px;
+    }
     .c-wrapper{
         flex-direction: column;
         padding: 0 50px;
@@ -181,9 +189,8 @@ textarea:focus
     }
     .c-info-item
     {
-        margin: 20px 0;
-        width: 100%;
-
+        margin: 2px;
+        width: 50%;
     }
     li{
         font-size: 10px;
@@ -193,12 +200,17 @@ textarea:focus
         left: -50px;
     }
 
+   .c-form-bt
+   {
+       margin: 0;
+       padding: 0;
+   }
     input
     {
         font-size: 12px;
         width: 35%;
-        height: 40px;
-        margin: 10px;
+        height: 20px;
+        margin: 0px;
 
     }
     .c-form-bt
@@ -222,9 +234,8 @@ textarea:focus
     {
         width: 50%;
         height: 5vh;
-        margin: 10px 0;
         font-size: 14px;
-        padding-left: 10px;
+        padding: 10px;
         resize:vertical;
         border: thin solid #000;
         border-radius: 10px;
@@ -232,7 +243,8 @@ textarea:focus
     }
     textarea:focus
     {
-
+        width: 70%;
+        height: 10vh;
         outline: none !important;
     }
 

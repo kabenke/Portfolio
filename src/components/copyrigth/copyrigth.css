@@ -1,10 +1,9 @@
 .f{
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 12vh;
     color: white;
     background-color: #000000;
-    bottom: 0;
 }
 
 footer {
@@ -49,35 +48,15 @@ footer {
 and (max-width:480px)
 {
    .f{
-       position: fixed;
+       position: relative;
+       font-size: 12px;
        width: 100%;
-       height: 3vh;
-       bottom: 0;
-
    }
     .f-list
     {
         display: none;
     }
 
-}
-
-/* 2688x1242px at 458ppi */
-@media only screen
-and (device-width: 375px)
-and (device-height: 667px)
-and (-webkit-device-pixel-ratio: 2) {
-    .f{
-        position: relative;
-        width: 100%;
-        height: 3vh;
-        margin-top: 300px;
-
-    }
-    .f-list
-    {
-        display: none;
-    }
 }
 
 
