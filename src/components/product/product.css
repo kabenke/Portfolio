@@ -42,7 +42,7 @@
     box-shadow: rgba(0, 0, 0, 0.45) 0 30px 20px -20px;
 }
 
-@media screen and (max-width: 480px)
+@media only screen and (min-device-width: 20px)  and (max-device-width: 991px) and (orientation: landscape)
 {
     .p{
         width: 40%;
@@ -53,24 +53,12 @@
         height: 15vh;
     }
 }
-@media screen  and (max-width:1080px) and (min-height: 1920px) {
+@media screen  and (min-device-width:992px) {
     .p
     {
         height: 10vh;
         padding: 20px;
         overflow: hidden;
-    }
-}
-@media screen  and (width:600px) and (height: 800px) {
-
-    .p
-    {
-        height: 10vh;
-        padding:20px;
-    }
-    .a
-    {
-        margin-left: 10px;
     }
 }
 

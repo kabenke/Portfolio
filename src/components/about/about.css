@@ -158,23 +158,7 @@
 
 }
 
-@media screen and (max-width: 1079px) and (min-height:100px)
-{
-    .a-card.bg
-    {
-        height: 50vh;
-    }
-    .a-img
-    {
-       padding: 20px;
-    }
-    .a-award
-    {
-        flex-grow: 1;
-    }
-
-}
-@media screen  and (max-width:1080px) and (min-height: 1920px) {
+@media screen  and (min-device-width:992px){
     .a{
         height: 80vh;
     }
@@ -191,29 +175,6 @@
         top: 30px;
     }
 
-
-}
-@media screen  and (width: 600px) and (height: 800px) {
-    .a{
-        display: flex;
-        flex-direction: column;
-        margin: 100px;
-        padding: 15px;
-        height: 100vh;
-    }
-
-    .a-card
-    {
-        display: none;
-    }
-    .a-card-bg
-    {
-        display: none;
-    }
-    .a-arrow
-    {
-        display: none;
-    }
 
 }
 

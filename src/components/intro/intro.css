@@ -126,7 +126,7 @@
      100% { transform: translate(0%)   skewX(0deg)   ; }
  }
 
- @media only screen and (min-device-width: 20px)  and (max-device-width: 991px) and (orientation: landscape)
+ @media only screen and (min-device-width: 20px)  and (max-device-width: 992px) and (orientation: landscape)
  {
      .i{
          flex-direction: column;
@@ -162,7 +162,7 @@
 
  }
 
- @media screen  and (max-width:1080px) and (min-height: 1920px) {
+ @media screen  and (min-device-width:992px)  {
 
      .i
      {
@@ -183,28 +183,7 @@
 
      }
  }
- @media screen  and (width:600px) and (height: 800px) {
-     .i
-     {
-         height: 110vh;
 
-     }
-
-     .i-img
-     {
-         height: 70vh;
-         width: 140%;
-         margin: -20%;
-         top: 100px;
-     }
-     .i-bg
-     {
-
-         width: 120%;
-         height: 100vh;
-     }
-
- }
 
 
 
