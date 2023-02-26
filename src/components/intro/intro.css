@@ -126,7 +126,7 @@
      100% { transform: translate(0%)   skewX(0deg)   ; }
  }
 
- @media screen and (max-width: 480px)
+ @media screen and (max-device-width: 991px)
  {
      .i{
          flex-direction: column;
@@ -159,10 +159,6 @@
      {
          display: none;
      }
-
- }
- @media screen and (min-width: 392px) and (orientation: landscape)
- {
 
     .i{
         width: 100%;
@@ -210,28 +206,7 @@
 
      }
  }
- @media screen  and (width:600px) and (height: 800px) {
-     .i
-     {
-         height: 110vh;
 
-     }
-
-     .i-img
-     {
-         height: 70vh;
-         width: 140%;
-         margin: -20%;
-         top: 100px;
-     }
-     .i-bg
-     {
-
-         width: 120%;
-         height: 100vh;
-     }
-
- }
 
 
 
