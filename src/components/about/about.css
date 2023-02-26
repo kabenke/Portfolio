@@ -157,7 +157,7 @@
     }
 
 }
-@media screen and (max-device-width: 991px) and (orientation: landscape)
+@media screen and (max-device-width: 991px)
 {
     .a{
         flex-direction: column;
@@ -179,7 +179,7 @@
     }
     .a-card-bg
     {
-        height: 25vh;
+       display: none;
     }
 
 }
