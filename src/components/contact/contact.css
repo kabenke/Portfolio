@@ -1,6 +1,6 @@
 .c
 {
-    height: 97vh;
+    height: 90vh;
     position: relative;
 }
 
@@ -164,7 +164,7 @@ textarea:focus
 @media screen and (max-device-width: 991px)
 {
     .c{
-        height: 97vh;
+        height: 80vh;
         position: relative;
         margin: 5px  5px 5px 0;
     }
