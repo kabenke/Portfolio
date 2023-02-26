@@ -155,10 +155,6 @@
     {
         flex-grow: 1;
     }
-
-}
-@media screen and (min-width: 392px) and (orientation: landscape)
-{
     .a{
         flex-direction: column;
         text-align: center;
@@ -179,6 +175,11 @@
     .a-arrow{
         display: none;
     }
+
+
+}
+@media screen and (min-width: 392px) and (orientation: landscape)
+{
 
 
 
