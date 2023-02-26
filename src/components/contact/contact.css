@@ -166,7 +166,7 @@ textarea:focus
     .c{
         height: 97vh;
         position: relative;
-        margin: 10px  10px 10px 0px;
+        margin: 5px  5px 5px 0px;
     }
     .c-left{
         margin: -10px;
@@ -190,10 +190,7 @@ textarea:focus
         margin: 2px;
         width: 50%;
     }
-    .c-desc
-    {
-        display: none;
-    }
+
     .c-bg
     {
         display: none;
@@ -203,29 +200,8 @@ textarea:focus
         display: none;
     }
     li{
-        font-size: 10px;
-    }
-    .c-info-list{
-        display: flex;
-        left: -50px;
-    }
-
-   .c-form-bt
-   {
-       margin: 0;
-       padding: 0;
-       width: 70px;
-       border-radius:0;
-   }
-    input
-    {
         font-size: 12px;
-        width: 35%;
-        height: 20px;
-        margin: 0;
-
     }
-
 
     .c-info-list{
         display: flex;
@@ -264,8 +240,8 @@ textarea:focus
     }
     textarea:focus
     {
-        width: 70%;
-        height: 20vh;
+        width: 50%;
+        height: 10vh;
     }
 
 

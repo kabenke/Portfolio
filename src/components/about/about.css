@@ -156,13 +156,13 @@
 
     .a-card
     {
-        width: 50%;
-        height: 50%;
+        width: auto;
+        height: auto;
+
     }
     .a-card-bg
     {
-        width: 50%;
-        height: 50%;
+        display: none;
     }
 
 
