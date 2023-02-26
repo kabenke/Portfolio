@@ -166,7 +166,7 @@ textarea:focus
     .c{
         height: 97vh;
         position: relative;
-        margin: 5px  5px 5px 0px;
+        margin: 5px  5px 5px 0;
     }
     .c-left{
         margin: -10px;
@@ -218,6 +218,7 @@ textarea:focus
 
     .c-desc
     {
+        margin-top: 10px;
         font-size: 12px ;
     }
 
