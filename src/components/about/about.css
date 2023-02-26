@@ -123,7 +123,7 @@
 }
 
 
-@media screen and (max-width: 480px)
+@media screen and (max-device-width: 991px)
 {
     .a{
         flex-direction: column;
@@ -157,32 +157,7 @@
     }
 
 }
-@media screen and (max-device-width: 991px)
-{
-    .a{
-        flex-direction: column;
-        text-align: center;
-        margin-top: 50px;
-        height: 100vh;
-        flex-grow: 1;
-    }
-    .a-card
-    {
-        width: 40%;
-    }
-    .a-award{
-        display: none;
-    }
 
-    .a-arrow{
-        display: none;
-    }
-    .a-card-bg
-    {
-       display: none;
-    }
-
-}
 
 @media screen  and (max-width:1080px) and (min-height: 1920px) {
     .a{
