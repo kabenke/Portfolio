@@ -123,7 +123,7 @@
 }
 
 
-@media only screen and (min-device-width: 20px)  and (max-device-width: 991px)
+@media only screen and (min-device-width: 20px)  and (max-device-width: 991px) and (orientation: landscape)
 {
     .a{
         flex-direction: column;

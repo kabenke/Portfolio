@@ -161,7 +161,7 @@ textarea:focus
 
 }
 
-@media screen and (max-device-width: 480px)
+@media only screen and (min-device-width: 20px)  and (max-device-width: 991px) and (orientation: landscape)
 {
     .c
     {
