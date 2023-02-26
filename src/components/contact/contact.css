@@ -163,12 +163,10 @@ textarea:focus
 
 @media screen and (max-width: 480px)
 {
-    .c
-    {
+    .c{
+        height: 97vh;
         position: relative;
-        font-size: 13px;
-        height: 80vh;
-
+        margin: 10px  10px 10px 0px;
     }
     .c-left{
         margin: -10px;
@@ -191,6 +189,18 @@ textarea:focus
     {
         margin: 2px;
         width: 50%;
+    }
+    .c-desc
+    {
+        display: none;
+    }
+    .c-bg
+    {
+        display: none;
+    }
+    .c-arrow
+    {
+        display: none;
     }
     li{
         font-size: 10px;
@@ -216,22 +226,35 @@ textarea:focus
 
     }
 
+
+    .c-info-list{
+        display: flex;
+        left: -50px;
+    }
+
+    .c-form-bt
+    {
+        margin: 0;
+        padding: 0;
+        width: 70px;
+        border-radius:0;
+    }
+
     .c-desc
     {
-        display: none;
+        font-size: 12px ;
     }
-    .c-bg
-    {
-        display: none;
-    }
-    .c-arrow
-    {
-        display: none;
+
+    input {
+        display: inline-block;
+        color: #333;
+        padding: 5px 5px 5px 5px;
+        border-radius: 10px;
+        border: thin solid #888;
     }
     textarea
     {
-        width: 50%;
-        height: 5vh;
+        height: 10vh;
         font-size: 14px;
         padding: 10px;
         resize:vertical;
@@ -242,9 +265,9 @@ textarea:focus
     textarea:focus
     {
         width: 70%;
-        height: 10vh;
-        outline: none !important;
+        height: 20vh;
     }
+
 
 
 }
@@ -272,66 +295,5 @@ textarea:focus
         height: 100vh;
 
     }
-}
-@media screen and (min-width: 392px) and (orientation: landscape)
-{
-    .c{
-        height: 97vh;
-        position: relative;
-        margin: 10px  10px 10px 0px;
-    }
-
-    .c-left
-    {
-       margin: -10px;
-    }
-    .c-info-list{
-        display: flex;
-        left: -50px;
-    }
-
-    .c-form-bt
-    {
-        margin: 0;
-        padding: 0;
-        width: 70px;
-        border-radius:0;
-    }
-
-    .c-desc
-    {
-        font-size: 12px ;
-    }
-    .c-bg
-    {
-        display: none;
-    }
-    .c-arrow
-    {
-        display: none;
-    }
-    input {
-        display: inline-block;
-        color: #333;
-        padding: 5px 5px 5px 5px;
-        border-radius: 10px;
-        border: thin solid #888;
-    }
-    textarea
-    {
-        height: 10vh;
-        font-size: 14px;
-        padding: 10px;
-        resize:vertical;
-        border: thin solid #000;
-        border-radius: 10px;
-
-    }
-    textarea:focus
-    {
-        width: 70%;
-        height: 20vh;
-    }
-
 }
 
