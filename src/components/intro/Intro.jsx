@@ -24,7 +24,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <section className="i-desc">
-                        <h2>Willkommen</h2>
+
                     </section>
                 </div>
             </div>
