@@ -153,7 +153,11 @@
     }
     .a-award
     {
-        flex-grow: 1;
+        display: none;
+    }
+    .a-img
+    {
+        width: 50%;
     }
 
 }
