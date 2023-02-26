@@ -207,7 +207,12 @@
      }
  }
 
-
+ @media screen and (max-device-height: 100px) and (orientation: landscape)
+ {
+     .i{
+         display: none;
+     }
+ }
 
 
 
