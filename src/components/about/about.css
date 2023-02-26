@@ -163,23 +163,3 @@
 }
 
 
-@media screen  and (min-device-width:992px) {
-    .a{
-        height: 80vh;
-    }
-    .a-card.bg
-    {
-        position: absolute;
-        height: 30vh;
-    }
-    .a-img
-    {
-        position: relative;
-        padding: 10px;
-        margin: 10px;
-        top: 30px;
-    }
-
-
-}
-
