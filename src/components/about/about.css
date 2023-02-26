@@ -183,22 +183,7 @@
     }
 
 }
-@media screen and (max-width: 1079px) and (min-height:100px)
-{
-    .a-card.bg
-    {
-        height: 50vh;
-    }
-    .a-img
-    {
-       padding: 20px;
-    }
-    .a-award
-    {
-        flex-grow: 1;
-    }
 
-}
 @media screen  and (max-width:1080px) and (min-height: 1920px) {
     .a{
         height: 80vh;
