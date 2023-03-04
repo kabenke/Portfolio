@@ -126,7 +126,7 @@
      100% { transform: translate(0%)   skewX(0deg)   ; }
  }
 
- @media screen and (max-device-width: 991px)
+ @media screen and (max-device-width: 480px)
  {
      .i{
          flex-direction: column;
@@ -208,48 +208,6 @@
      }
  }
 
- @media screen and (max-device-height: 300px)
- {
-     .i{
-         display: flex;
-         height: 100vh;
-     }
-
-     .i-left
-     {
-         flex: 1;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-
-
-     }
-     @keyframes pulse {
-         from {
-             transform : scale(0.5);
-             opacity   : 0.15;
-         }
-         to {
-             transform : scale(1);
-             opacity   : 1;
-         }
-     }
-     .i-left-wrapper
-     {
-         padding: 50px;
-         height: 50%;
-         display: flex;
-         flex-direction: column;
-         justify-content: space-between;
-         animation: pulse 5s ;
-
-     }
-     .i-rigth
-     {
-         flex: 1;
-         position: relative;
-     }
- }
 
 
 

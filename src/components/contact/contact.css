@@ -161,7 +161,7 @@ textarea:focus
 
 }
 
-@media screen and (max-device-width: 991px)
+@media screen and (max-device-width: 480px)
 {
     .c{
         height: 90vh;
