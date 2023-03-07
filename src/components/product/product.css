@@ -59,6 +59,10 @@
         max-width: 40%;
         height: 50vh;
     }
+    .p:hover{
+        width: 40%;
+        height: 50vh;
+    }
 
 }
 
