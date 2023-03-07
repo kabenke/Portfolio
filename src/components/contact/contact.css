@@ -280,10 +280,7 @@ textarea:focus
         padding: 0 50px;
 
     }
-    .c-bg
-    {
-        display: grid;
-    }
+
     .c-form-bt
     {
         margin-bottom: 30px;
