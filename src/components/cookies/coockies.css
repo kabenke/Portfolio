@@ -108,7 +108,7 @@ body::-webkit-scrollbar-track {
 }
 
 
-@media screen and (max-device-width: 1080px) {
+@media screen and (max-width: 1080px) {
     .cookie-popup {
         position: fixed;
         top: 10%;

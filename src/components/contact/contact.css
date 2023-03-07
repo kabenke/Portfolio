@@ -185,7 +185,7 @@ textarea:focus
     cursor: default;
     text-decoration: none;
 }
-@media screen and (max-device-width: 1080px)
+@media screen and (max-width: 1080px)
 {
     .c{
         height: 90vh;
@@ -268,7 +268,7 @@ textarea:focus
 
 
 }
-@media only screen and (max-device-width: 1080px) and (orientation: landscape) {
+@media only screen and (max-width: 1080px) and (orientation: landscape) {
 
     .c
     {

@@ -126,7 +126,7 @@
      100% { transform: translate(0%)   skewX(0deg)   ; }
  }
 
- @media  screen and (max-device-width: 1080px)
+ @media  screen and (max-width: 1080px)
  {
      .i{
          flex-direction: column;
@@ -186,7 +186,7 @@
      }
 
  }
-@media only screen and   (max-device-width: 1080px) and (orientation:landscape)
+@media only screen and   (max-width: 1080px) and (orientation:landscape)
  {
     body {
         width: 100vw;

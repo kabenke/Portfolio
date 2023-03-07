@@ -44,7 +44,7 @@ footer {
     text-decoration: none;
     color: white;
 }
-@media only screen and (max-device-width:1080px)
+@media only screen and (max-width:1080px)
 {
     .f{
         position: fixed;
