@@ -44,12 +44,11 @@ footer {
     text-decoration: none;
     color: white;
 }
-@media only screen
-and (max-device-width:1080px)
+@media only screen and (max-device-width:1080px)
 {
     .f{
         position: fixed;
-        height: 5vh;
+        height: 2vh;
         width: 100%;
         bottom: 0;
         margin: 0;
