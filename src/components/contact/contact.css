@@ -122,6 +122,7 @@ input:not([type="checkbox"]) {
     color: inherit;
     font-size: inherit;
 }
+
 textarea
 {
     width: 60%;
@@ -237,7 +238,7 @@ textarea:focus
         margin: 0;
         padding: 0;
         width: 70px;
-        border-radius:0;
+        border-radius: 0;
     }
 
     .c-desc
@@ -260,6 +261,14 @@ textarea:focus
     {
         width: 50%;
         height: 10vh;
+    }
+    input:not([type="checkbox"]):not([type="submit"]) {
+        width: 50%;
+        display: inline-block;
+        color: #333;
+        padding: 10px;
+        border-radius: 10px;
+        border: thin solid #888;
     }
 
 
