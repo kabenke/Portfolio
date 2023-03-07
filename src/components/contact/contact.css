@@ -144,7 +144,7 @@ textarea:focus
 }
 .c-form-bt
 {
-    margin-top: 30px;
+    margin-top: 10px;
     border:none;
     padding: 15px;
     background-color: #56b256;
@@ -185,7 +185,7 @@ textarea:focus
     cursor: default;
     text-decoration: none;
 }
-@media screen and (max-device-width: 480px)
+@media screen and (max-device-width: 1080px)
 {
     .c{
         height: 90vh;
@@ -268,7 +268,26 @@ textarea:focus
 
 
 }
+@media only screen and (max-device-width: 1080px) and (orientation: landscape) {
 
+    .c
+    {
+        height: 120vh;
+    }
+    .c-wrapper{
+        flex-direction: row;
+        padding: 0 50px;
+
+    }
+    .c-bg
+    {
+        display: grid;
+    }
+    .c-form-bt
+    {
+        margin-bottom: 30px;
+    }
+}
 
 
 

@@ -114,7 +114,7 @@ body::-webkit-scrollbar-track {
     font-size: 12px;
 }
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 1080px) {
     .cookie-popup {
         position: fixed;
         width: auto;
