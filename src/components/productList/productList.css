@@ -58,3 +58,12 @@
         display: none;
     }
 }
+@media  screen  and (max-device-width: 1080px) and (orientation: landscape)
+{
+    .pl-list
+    {
+        width: 100%;
+
+    }
+
+}

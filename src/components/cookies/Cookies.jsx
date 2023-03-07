@@ -65,30 +65,31 @@ export default function Cookies() {
                                     Wir behalten uns das Recht vor, diese Cookie-Richtlinie jederzeit zu ändern. Bitte überprüfen Sie regelmäßig diese Richtlinie, um sicherzustellen, dass Sie mit den Änderungen einverstanden sind.
 
                                     Bitte beachten Sie, dass diese Richtlinie lediglich als Vorlage dient und dass Sie je nach Bedarf Anpassungen vornehmen müssen, um den Anforderungen Ihrer Website oder Ihrer Organisation gerecht zu werden. Zudem empfehle ich Ihnen, diese Richtlinie von einem Anwalt oder einer anderen autorisierten Stelle prüfen zu lassen, um sicherzustellen, dass sie alle rechtlichen Anforderungen erfüllt.
+
                                 </p>
-                                    <ol>
-                                        <li>
-                                            <b>Notwendige Cookies</b>: Diese Cookies sind unerlässlich für den Betrieb unserer Website. Ohne sie können wir Ihnen bestimmte Dienste nicht anbieten. Diese Cookies erfassen keine persönlichen Informationen.
-                                        </li>
-                                        <li>
-                                            <b>Funktionscookies</b>: Diese Cookies ermöglichen es uns, uns an Ihre Präferenzen zu erinnern und Ihnen personalisierte Inhalte und Funktionen anzubieten. Diese Cookies erfassen keine persönlichen Informationen.
-                                        </li>
-                                        <li>
-                                            <b>Analyse-Cookies</b>: Diese Cookies werden verwendet, um Informationen darüber zu sammeln, wie Besucher unsere Website nutzen. Wir verwenden diese Informationen, um die Leistung unserer Website zu verbessern und Ihnen relevante Inhalte und Angebote anzubieten.
-                                        </li>
-                                        <li>
-                                            <b>Werbe-Cookies</b>  : Entscheiden Sie, ob Sie Werbe-Cookies aktivieren möchten, die es uns und unseren Partnern ermöglichen, personalisierte Werbung auf Basis Ihrer Interessen und Ihres Surfverhaltens anzuzeigen. Diese Cookies können auch dazu beitragen, dass wir Ihre Interessen besser verstehen und Ihnen relevantere Inhalte und Angebote anbieten können.
-                                        </li>
-                                        <li>
-                                            <b>Cookie-Zustimmung</b>: Überprüfen Sie, ob die Cookie-Zustimmung ordnungsgemäß erteilt wurde und ob die Cookie-Einstellungen korrekt gespeichert wurden. Stellen Sie sicher, dass die Besucher der Website die Möglichkeit haben, ihre Cookie-Einstellungen jederzeit zu ändern oder zu widerrufen.
-                                        </li>
-                                        <li>
-                                            <b>Datenschutzrichtlinie:</b> Überprüfen Sie, ob Ihre Datenschutzrichtlinie aktualisiert wurde, um die Verwendung von Cookies auf der Website zu erklären. Stellen Sie sicher, dass die Datenschutzrichtlinie klare Informationen darüber enthält, welche Arten von Cookies auf der Website verwendet werden und wie diese Cookies verwendet werden.
-                                        </li>
-                                        <li>
-                                            <b> DSGVO-Konformität:</b>Überprüfen Sie, ob Ihre Datenschutzrichtlinie aktualisiert wurde, um die Verwendung von Cookies auf der Website zu erklären. Stellen Sie sicher, dass die Datenschutzrichtlinie klare Informationen darüber enthält, welche Arten von Cookies auf der Website verwendet werden und wie diese Cookies verwendet werden.
-                                        </li>
-                                    </ol>
+                                <ol>
+                                    <li>
+                                        <b>Notwendige Cookies</b>: Diese Cookies sind unerlässlich für den Betrieb unserer Website. Ohne sie können wir Ihnen bestimmte Dienste nicht anbieten. Diese Cookies erfassen keine persönlichen Informationen.
+                                    </li>
+                                    <li>
+                                        <b>Funktionscookies</b>: Diese Cookies ermöglichen es uns, uns an Ihre Präferenzen zu erinnern und Ihnen personalisierte Inhalte und Funktionen anzubieten. Diese Cookies erfassen keine persönlichen Informationen.
+                                    </li>
+                                    <li>
+                                        <b>Analyse-Cookies</b>: Diese Cookies werden verwendet, um Informationen darüber zu sammeln, wie Besucher unsere Website nutzen. Wir verwenden diese Informationen, um die Leistung unserer Website zu verbessern und Ihnen relevante Inhalte und Angebote anzubieten.
+                                    </li>
+                                    <li>
+                                        <b>Werbe-Cookies</b>  : Entscheiden Sie, ob Sie Werbe-Cookies aktivieren möchten, die es uns und unseren Partnern ermöglichen, personalisierte Werbung auf Basis Ihrer Interessen und Ihres Surfverhaltens anzuzeigen. Diese Cookies können auch dazu beitragen, dass wir Ihre Interessen besser verstehen und Ihnen relevantere Inhalte und Angebote anbieten können.
+                                    </li>
+                                    <li>
+                                        <b>Cookie-Zustimmung</b>: Überprüfen Sie, ob die Cookie-Zustimmung ordnungsgemäß erteilt wurde und ob die Cookie-Einstellungen korrekt gespeichert wurden. Stellen Sie sicher, dass die Besucher der Website die Möglichkeit haben, ihre Cookie-Einstellungen jederzeit zu ändern oder zu widerrufen.
+                                    </li>
+                                    <li>
+                                        <b>Datenschutzrichtlinie:</b> Überprüfen Sie, ob Ihre Datenschutzrichtlinie aktualisiert wurde, um die Verwendung von Cookies auf der Website zu erklären. Stellen Sie sicher, dass die Datenschutzrichtlinie klare Informationen darüber enthält, welche Arten von Cookies auf der Website verwendet werden und wie diese Cookies verwendet werden.
+                                    </li>
+                                    <li>
+                                        <b> DSGVO-Konformität:</b>Überprüfen Sie, ob Ihre Datenschutzrichtlinie aktualisiert wurde, um die Verwendung von Cookies auf der Website zu erklären. Stellen Sie sicher, dass die Datenschutzrichtlinie klare Informationen darüber enthält, welche Arten von Cookies auf der Website verwendet werden und wie diese Cookies verwendet werden.
+                                    </li>
+                                </ol>
                                 <button onClick={handleAccept}>Accept</button>
                             </div>
                         </div>

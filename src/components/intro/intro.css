@@ -189,6 +189,7 @@
 @media only screen and   (max-device-width: 1080px) and (orientation:landscape)
  {
     .i {
+        width: 100%;
         display: flex;
 
         flex-direction: row; /* set the flex direction to row */

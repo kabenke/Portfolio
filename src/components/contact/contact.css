@@ -272,6 +272,7 @@ textarea:focus
 
     .c
     {
+        width: 100%;
         height: 120vh;
     }
     .c-wrapper{
