@@ -14,10 +14,8 @@ export default function Cookies() {
     function handleAccept() {
         // save the user's cookie preferences and close the popup
         setShowCookiePopup(false);
-
-
     }
-    if (!acceptedCookies) {
+    if (!acceptedCookies && !localStorage.getItem('acceptedCookies')) {
         return (
             <div>
                 <div className="cookies-overlay"/>
