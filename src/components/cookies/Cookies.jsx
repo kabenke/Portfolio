@@ -7,13 +7,19 @@ export default function Cookies() {
     function acceptCookies() {
         setAcceptedCookies(true);
         localStorage.setItem('acceptedCookies', true); // save acceptance to localStorage
-    }
 
+        // hide body scrollbars
+        document.body.style.overflow = 'hidden';
+    }
     const [showCookiePopup, setShowCookiePopup] = useState(false);
 
     function handleAccept() {
         // save the user's cookie preferences and close the popup
         setShowCookiePopup(false);
+
+        // hide body scrollbars
+        document.body.style.overflow = 'hidden';
+
     }
     if (!acceptedCookies) {
         return (
