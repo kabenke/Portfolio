@@ -188,6 +188,12 @@
  }
 @media only screen and   (max-device-width: 1080px) and (orientation:landscape)
  {
+    body {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden; /* Hide horizontal scroll bar */
+    }
+
     .i {
         width: 100%;
         display: flex;
