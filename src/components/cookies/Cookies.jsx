@@ -8,8 +8,6 @@ export default function Cookies() {
         setAcceptedCookies(true);
         localStorage.setItem('acceptedCookies', true); // save acceptance to localStorage
 
-        // hide body scrollbars
-        document.body.style.overflow = 'hidden';
     }
     const [showCookiePopup, setShowCookiePopup] = useState(false);
 
@@ -17,8 +15,6 @@ export default function Cookies() {
         // save the user's cookie preferences and close the popup
         setShowCookiePopup(false);
 
-        // hide body scrollbars
-        document.body.style.overflow = 'hidden';
 
     }
     if (!acceptedCookies) {
@@ -92,15 +88,11 @@ export default function Cookies() {
                                         <li>
                                             <b> DSGVO-Konformität:</b>Überprüfen Sie, ob Ihre Datenschutzrichtlinie aktualisiert wurde, um die Verwendung von Cookies auf der Website zu erklären. Stellen Sie sicher, dass die Datenschutzrichtlinie klare Informationen darüber enthält, welche Arten von Cookies auf der Website verwendet werden und wie diese Cookies verwendet werden.
                                         </li>
-
-
                                     </ol>
-
                                 <button onClick={handleAccept}>Accept</button>
                             </div>
                         </div>
                     )}
-
                     <button id="s-cookies" onClick={() => setAcceptedCookies(true)}>Cookie-Einstellungen</button>
                     <button id="t-cookies" onClick={() => setAcceptedCookies(true)}>Nur technische Cookies akzeptieren
                     </button>
