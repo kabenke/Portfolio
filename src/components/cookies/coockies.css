@@ -20,8 +20,6 @@ body::-webkit-scrollbar-track {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 9998;
-    margin: 2px;
-    padding: 2px;
 }
 
 .cookies-alert {
