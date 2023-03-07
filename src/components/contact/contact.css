@@ -233,13 +233,7 @@ textarea:focus
         left: -50px;
     }
 
-    .c-form-bt
-    {
-        margin: 0;
-        padding: 0;
-        width: 70px;
-        border-radius: 0;
-    }
+
 
     .c-desc
     {
