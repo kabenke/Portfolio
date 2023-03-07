@@ -75,19 +75,16 @@ form
     margin: 20px 2.5px 30px 2.5px;
 }
 
-input {
+input:not([type="checkbox"]):not([type="submit"]) {
+    width: 40%;
     display: inline-block;
     color: #333;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     border-radius: 10px;
     border: thin solid #888;
 }
 
-input:focus {
-    border: thin solid #444 ;
-    outline: none !important;
-    width: 50%;
-}
+
 
 label {
     position: absolute;
@@ -109,6 +106,22 @@ input:focus ~ label, input:valid ~ label  {
     padding:0 5px 0 5px;
     outline: none !important;
 }
+
+input:not([type="checkbox"]) {
+    outline: none;
+}
+
+.check-label {
+    position: static;
+    pointer-events: auto;
+    left: auto;
+    top: 2px;
+    margin: 2px;
+    transition: none;
+    border-radius: 0;
+    color: inherit;
+    font-size: inherit;
+}
 textarea
 {
     width: 60%;
@@ -119,6 +132,7 @@ textarea
     resize:vertical;
     border: thin solid #000;
     border-radius: 10px;
+    margin-bottom: 3px;
 
 }
 textarea:focus
@@ -129,13 +143,15 @@ textarea:focus
 }
 .c-form-bt
 {
-
+    margin-top: 30px;
     border:none;
     padding: 15px;
     background-color: #56b256;
     color: white;
     font-weight: 500;
     cursor: pointer;
+    border-radius: 5px;
+
 }
 .c-info-list {
     list-style-type: none;
@@ -156,11 +172,18 @@ textarea:focus
     color: black;
 }
 
+
 .c-info-list li a:hover {
     background-color: #56b256;
 
 }
 
+#blocked-link {
+    pointer-events: none;
+    color: gray;
+    cursor: default;
+    text-decoration: none;
+}
 @media screen and (max-device-width: 480px)
 {
     .c{

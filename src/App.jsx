@@ -4,6 +4,7 @@ import About from "./components/about/About";
 import ProductList from "./components/productList/ProductList";
 import Contact from "./components/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
+import CookiesAlert from "./components/cookies/Cookies";
 import {ThemeContext} from "./components/context";
 import CopyRigth from "./components/copyrigth/copyRigth";
 
@@ -12,6 +13,7 @@ const App = () => {
     const darkMode = theme.state.darkMode;
   return (
           <div style={{backgroundColor : darkMode ?  "#222" : "#fff" , color : darkMode && "white" }}>
+              <CookiesAlert/>
               <Toggle/>
               <Intro/>
               <About/>
