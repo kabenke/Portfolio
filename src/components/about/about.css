@@ -131,6 +131,7 @@
         margin-top: 50px;
         height: 70vh;
     }
+
     .a-left
     {
         width: 100%;
@@ -145,7 +146,7 @@
     }
     .a-rigth
     {
-        padding: 20px;
+        padding: 60px;
     }
     .a-arrow
     {
@@ -153,11 +154,14 @@
     }
     .a-card.bg
     {
-        position: absolute;
         top: 0;
-        left: 60px;
-    }
+        left: 0;
 
+    }
+    .a-desc
+    {
+        position: relative;
+    }
 
 
 }
