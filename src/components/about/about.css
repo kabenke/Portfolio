@@ -139,7 +139,7 @@
     {
         height: 30vh;
     }
-    .a-card.bg , .a-award
+     .a-award
     {
         display: none;
     }
@@ -151,6 +151,13 @@
     {
         display: none;
     }
+    .a-card.bg
+    {
+        position: absolute;
+        top: 0;
+        left: 60px;
+    }
+
 
 
 }
