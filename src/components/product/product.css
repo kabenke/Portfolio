@@ -45,11 +45,11 @@
 @media  screen and (max-width: 1080px)
 {
     .p{
-        width: 40%;
+        width: 45%;
         height: 15vh;
     }
     .p:hover{
-        width: 40%;
+        width: 45%;
         height: 15vh;
     }
 }
