@@ -190,7 +190,10 @@
         height: 100vh;
         overflow-x: hidden; /* Hide horizontal scroll bar */
     }
-
+    .i-desc
+    {
+        margin-top: 30px;
+    }
     .i {
         width: 100%;
         display: flex;
