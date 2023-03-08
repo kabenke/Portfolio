@@ -19,11 +19,14 @@ const Intro = () => {
                             <div className="i-title-item">Web Developer</div>
                             <div className="i-title-item">UI/UX Designer</div>
                             <div className="i-title-item">Photographer</div>
-                            <div className="i-title-item">DJ MASTER</div>
+                            <div className="i-title-item">DJ Master</div>
                             <div className="i-title-item">Content Creator</div>
                         </div>
                     </div>
                     <section className="i-desc">
+
+                        Ich entwerfe und entwickle Dienstleistungen für Kunden jeder Größe und spezialisiere mich auf
+                        die Erstellung stilvoller, moderner Websites, Webdienste und Online-Shops.
 
                     </section>
                 </div>
