@@ -56,11 +56,11 @@
 @media only screen and (max-width: 1080px) and (orientation: landscape)
 {
     .p{
-        max-width: 40%;
+        max-width: 50%;
         height: 50vh;
     }
     .p:hover{
-        width: 40%;
+        width: 50%;
         height: 50vh;
     }
 
