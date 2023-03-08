@@ -46,22 +46,22 @@
 {
     .p{
         width: 45%;
-        height: 15vh;
+        max-height: 15vh;
     }
     .p:hover{
         width: 45%;
-        height: 15vh;
+        max-height: 15vh;
     }
 }
 @media only screen and (max-width: 1080px) and (orientation: landscape)
 {
     .p{
         max-width: 50%;
-        height: 50vh;
+        max-height: 50vh;
     }
     .p:hover{
         width: 50%;
-        height: 50vh;
+        max-height: 50vh;
     }
 
 }
