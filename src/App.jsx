@@ -7,6 +7,7 @@ import Toggle from "./components/toggle/Toggle";
 import CookiesAlert from "./components/cookies/Cookies";
 import {ThemeContext} from "./components/context";
 import CopyRigth from "./components/copyrigth/copyRigth";
+import   "./App.css";
 
 const App = () => {
     const theme = useContext(ThemeContext);
