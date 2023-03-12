@@ -92,7 +92,7 @@ export default function Cookies() {
                             </div>
                         </div>
                     )}
-                    <button id="s-cookies" onClick={() => setAcceptedCookies(true)}>Cookie-Einstellungen</button>
+                    <button id="s-cookies" onClick={() => setAcceptedCookies(true)}>Keine Cookies</button>
                     <button id="t-cookies" onClick={() => setAcceptedCookies(true)}>Nur technische Cookies akzeptieren
                     </button>
                     <button id="a-cookies" onClick={acceptCookies}>Alle Cookies akzeptieren</button>
