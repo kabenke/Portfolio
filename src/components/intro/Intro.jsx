@@ -25,7 +25,7 @@ const Intro = () => {
                     </div>
                     <section className="i-desc">
 
-                        Ich entwerfe und entwickle Dienstleistungen für Kunden jeder Größe und spezialisiere mich auf
+                        Wir entwerfen und entwicklen Dienstleistungen für Kunden jeder Größe und spezialisieren wir auf
                         die Erstellung stilvoller, moderner Websites, Webdienste und Online-Shops.
 
                     </section>
