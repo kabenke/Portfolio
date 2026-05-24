@@ -1,72 +1,74 @@
-.p
-{
-    width: 29%;
-    height: 30vh;
-    margin: 25px 5px;
-    border : 2px solid rgb(243,242,242);
-    border-radius: 10px 10px;
-    overflow: hidden;
+/* ============================================================
+   PRODUCT CARD — modernized
+   ============================================================ */
 
+.p {
+    width: 30%;
+    height: 30vh;
+    margin: 16px 8px;
+    border: 1px solid rgba(89, 178, 86, 0.12);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm, 0 2px 8px rgba(0, 0, 0, 0.06));
+    transition: transform 500ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)),
+                box-shadow 500ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)),
+                border-color 500ms var(--ease-out, ease-out);
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: relative;
 }
 
-.p-browser
-{
-    height: 20px;
-    background-color: rgb(92, 157, 81);
+.p-browser {
+    height: 28px;
+    background: linear-gradient(90deg, #59b256 0%, #4a9d47 100%);
     display: flex;
     align-items: center;
     position: sticky;
-
-
+    padding: 0 10px;
 }
-.p-circle
-{
-    width: 6px;
-    height: 6px;
-    background-color: white;
+
+.p-circle {
+    width: 8px;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.85);
     margin: 3px;
-    border-radius:50%;
-
+    border-radius: 50%;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
 }
-.p-img{
+
+.p-img {
     width: 100%;
-}
-.p:hover{
-
-    height: 30vh;
-    transition: all 1ms ;
-}
-
-.p:hover{
-    transform: scale(1.05);
-    box-shadow: rgba(0, 0, 0, 0.45) 0 30px 20px -20px;
+    height: calc(100% - 28px);
+    object-fit: cover;
+    transition: transform 700ms var(--ease-out, ease-out);
+    display: block;
 }
 
-@media  screen and (max-width: 1080px)
-{
-    .p{
+.p:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 50px rgba(89, 178, 86, 0.25),
+                0 0 0 1px rgba(89, 178, 86, 0.3);
+    border-color: rgba(89, 178, 86, 0.4);
+}
+
+.p:hover .p-img {
+    transform: scale(1.06);
+}
+
+@media screen and (max-width: 1080px) {
+    .p {
         width: 45%;
-        max-height: 15vh;
+        max-height: 18vh;
     }
-    .p:hover{
+    .p:hover {
         width: 45%;
-        max-height: 15vh;
+        max-height: 18vh;
+        transform: translateY(-4px) scale(1.02);
     }
 }
-@media only screen and (max-width: 1080px) and (orientation: landscape)
-{
-    .p{
-        max-width: 50%;
-        max-height: 50vh;
-    }
-    .p:hover{
-        width: 50%;
-        max-height: 50vh;
-    }
 
+@media only screen and (max-width: 1080px) and (orientation: landscape) {
+    .p { max-width: 50%; max-height: 50vh; }
+    .p:hover { width: 50%; max-height: 50vh; }
 }
-
-
-
-
-
