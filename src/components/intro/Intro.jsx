@@ -16,17 +16,17 @@ const Intro = () => {
                     <h1 className="i-name">Stephane Ulrich </h1>
                     <div className="i-title">
                         <div className="i-title-wrapper">
-                            <div className="i-title-item">Web Developer</div>
-                            <div className="i-title-item">UI/UX Designer</div>
-                            <div className="i-title-item">Photographer</div>
+                            <div className="i-title-item">MES Engineer</div>
+                            <div className="i-title-item">Software Engineer</div>
+                            <div className="i-title-item">Industry 4.0</div>
+                            <div className="i-title-item">OPC-UA Specialist</div>
                             <div className="i-title-item">DJ Master</div>
-                            <div className="i-title-item">Content Creator</div>
                         </div>
                     </div>
                     <section className="i-desc">
 
-                        Wir entwerfen und entwicklen Dienstleistungen für Kunden jeder Größe und spezialisieren wir auf
-                        die Erstellung stilvoller, moderner Websites, Webdienste und Online-Shops.
+                        Ich entwickle MES- und Software-Lösungen für die Industrie — von OPC-UA-Integration
+                        über SCADA-Anbindung bis zu nativen Tools. Aktuell bei BASF, Alumnus der TU Dortmund.
 
                     </section>
                 </div>
