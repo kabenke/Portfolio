@@ -58,8 +58,8 @@
     position: absolute;
     top: 40px;
     left: 60px;
-    background: linear-gradient(135deg, #59b256 0%, #4a9d47 100%);
-    box-shadow: 0 20px 60px rgba(89, 178, 86, 0.3);
+    background-color: black;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
 }
 
 .a-award-img {
@@ -164,7 +164,7 @@
 
 h4.a-award {
     font-weight: 700;
-    color: var(--brand, #59b256);
+    color: #1f1f1f;
     font-size: 18px;
     letter-spacing: -0.01em;
     margin: 0 0 4px 0;
