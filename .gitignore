@@ -1,5 +1,32 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*~
+
+# Dependencies
+node_modules/
 package-lock.json
-/node_modules
-README.md
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+/build
 build/*
 !build/build.xml
+
+# Logs
+yarn-error.log
+yarn-debug.log*
+npm-debug.log*
+*.log
+
+# OS
+Thumbs.db
